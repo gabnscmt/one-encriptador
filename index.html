@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/70e0fb8f27.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./assets/favicon.svg" type="image/x-icon">
+    <title>Challenge Alura</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="cabecalho__logo__alura" src="./assets/logo-alura.svg" alt="logo alura">
+      <img class="cabecalho__logo__diamante" src="./assets/alert.png" alt="icon diamante">
+    </header>
+    <main class="conteudo">
+      <section class="conteudo__principal">
+        <textarea class="conteudo__principal__campo" rows="25" cols="60" placeholder="Digite seu texto, apenas letras minúsculas e sem acento."></textarea>
+        <button class="btn__criptografar">
+          <i class="fa-solid fa-lock"></i> Criptografar </button>
+        <button class="btn__descriptografar">
+          <i class="fa-solid fa-unlock"></i> Descriptografar </button>
+        <button class="btn__colar">
+          <i class="fa-solid fa-paste"></i> Colar </button>
+      </section>
+      <div class="conteudo__feedback">
+        <img src="./assets/search.png" alt="lupa icon feedback">
+        <h2 class="conteudo__feedback__texto">Nenhuma mensagem encontrada!</h2>
+        <h2 class="conteudo__feedback__texto">Digite algum texto para criptografar ou descriptografar.</h2>
+      </div>
+      <div class="conteudo__saida">
+        <img class="conteudo__saida_img" src="./assets/cesar.jpeg" alt="cifra de cesar imagem">
+        <p class="conteudo__saida__texto"></p>
+        <button class="conteudo__saida__texto__btn">
+          <i class="fa-regular fa-copy"></i> Copiar </button>
+      </div>
+      </div>
+    </main>
+    <footer class="rodape">
+      <p> Desenvolvido por Gabriel (@gabrielnascmt_2). Oracle Next Education <br>
+        <a class="rodape__links" href="https://github.com/gabnscmt">
+          <img src="./assets/github.png" alt="github icon rodape">
+        </a>
+        <a class="rodape__links" href="https://br.linkedin.com/in/gabrielsantiago-dev">
+          <img src="./assets/linkedin.png" alt="linkedin icon rodape">
+        </a>
+        <a class="rodape__links" href="https://twitter.com/gabrielnascmt_2">
+          <img src="./assets/twitter-novo.png" alt="twitter icon rodape">
+        </a>
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
